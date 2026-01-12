@@ -94,7 +94,7 @@
             // REPLACE THIS URL WITH YOUR PUBLISHED CSV LINK
             //sheetUrl: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQ...YOUR_LINK_HERE.../pub?output=csv',
             //sheetUrl: 'https://drive.google.com/uc?export=download&id=1Eyu1t2B5ZzD-RlS_NLLjD9V6k3FOPEow',
-            sheetUrl: './items.csv',
+            sheetUrl: './items.csv?v=' + Date.now(),
             
             init() {
                 Papa.parse(this.sheetUrl, {
