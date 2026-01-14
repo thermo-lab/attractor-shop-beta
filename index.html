@@ -70,14 +70,30 @@
                 <img :src="'images/' + item.image" class="card-img" :alt="item.title" onerror="this.src='https://placehold.co/400x300?text=No+Image'">
                 
                 <div class="card-body">
-                    <h3 class="card-title" x-text="item.title"></h3>
-                    <p class="card-desc" x-text="item.description"></p>
-                    
-                    <div class="card-footer">
-                        <span class="price" x-text="'$' + item.price"></span>
-                        <a :href="item.square_url" target="_blank" class="buy-btn">Buy Now</a>
+                  <h3 class="card-title" x-text="item.title"></h3>
+    
+                  <div style="background: #f4f4f4; padding: 10px; border-radius: 6px; font-size: 0.85rem; margin-bottom: 15px; display: grid; grid-template-columns: 1fr 1fr; gap: 8px;">
+        
+                    <div x-show="item.dimensions">
+                      <span style="color: #666; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1px;">Size</span><br>
+                      <span x-text="item.dimensions"></span>
                     </div>
-                </div>
+
+                    <div x-show="item.material">
+                      <span style="color: #666; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1px;">Material</span><br>
+                      <span x-text="item.material"></span>
+                    </div>
+        
+                    <div style="grid-column: span 2;" x-show="item.print_stats">
+                      <span style="color: #666; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1px;">Print Specs</span><br>
+                      <span x-text="item.print_stats"></span>
+                    </div>
+        
+                 </div>
+
+                 <p class="card-desc" x-text="item.description"></p>
+                 </div>
+
             </div>
         </template>
     </div>
