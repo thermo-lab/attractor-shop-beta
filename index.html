@@ -118,7 +118,7 @@
                     header: true,
                     skipEmptyLines: true,
                     complete: (results) => {
-                        this.products = results.data;
+                        this.products = results.data.filter(item => item.active && item.active.toLowerCase() === 'true');
                         this.loading = false;
                     }
                 });
