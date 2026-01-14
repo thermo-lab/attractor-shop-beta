@@ -1,5 +1,4 @@
 id,title,category,price,image,description,square_url,dimensions,material,print_stats,active
-
 1,Aizawa Sculpture,Sculpture,80,aizawa_001.jpg,this is a test,https://square.link/u/M0hOZEl1,20cm x 20cm, Matte PLA, 12 hours,true
 2,Lorenz Butterfly,Sculpture,45.00,lorenz_placeholder.jpg,#,The archetypal strange attractor originally derived for atmospheric convection. Famous for illustrating the Butterfly Effect. Eq: dx/dt=σ(y-x),150mm x 120mm x 100mm,Silk Gold PLA,16 Hours / 0.12mm,true
 3,Rössler Band,Sculpture,35.00,rossler_placeholder.jpg,#,A simpler chaotic system containing a single manifold that folds into itself. Resembles a Mobius strip structure. Eq: dx/dt=-y-z,130mm x 130mm x 80mm,Matte White PLA,12 Hours / 0.16mm,false
@@ -22,6 +21,7 @@ id,title,category,price,image,description,square_url,dimensions,material,print_s
 20,Hadley,Sculpture,40.00,hadley_placeholder.jpg,#,A model of atmospheric circulation. The shape is simpler and more 'contained' than Lorenz, making it excellent for smaller prints. Eq: dx/dt=-y^2-z^2-ax+af,100mm x 100mm x 100mm,Matte Grey PLA,11 Hours / 0.12mm,true
 21,Burke-Shaw,Sculpture,42.00,burke_shaw_placeholder.jpg,#,A system that demonstrates a period-doubling route to chaos. The shape resembles a twisted heart or pretzel. Eq: dx/dt=-s(x+y),115mm x 115mm x 70mm,Pink Silk PLA,13 Hours / 0.16mm,false
 22,Arneodo,Sculpture,48.00,arneodo_placeholder.jpg,#,A system specifically designed to find low-dimensional chaos. Visually distinct for its 'branching' structure. Eq: dx/dt=y, dy/dt=z, dz/dt=-ax-by-cz+x^3,120mm x 120mm x 120mm,White ABS,17 Hours / 0.12mm,true
+
 
 
 
