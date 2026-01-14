@@ -1,5 +1,6 @@
-id,title,category,price,image,description,square_url
+id,title,category,price,image,description,square_url,dimensions,material,print_stats
 
-1,Aizawa Sculpture,Sculpture,80,aizawa_001.jpg,this is a test,https://square.link/u/M0hOZEl1
+1,Aizawa Sculpture,Sculpture,80,aizawa_001.jpg,this is a test,https://square.link/u/M0hOZEl1,20cm x 20cm, Matte PLA, 12 hours
+
 
 
